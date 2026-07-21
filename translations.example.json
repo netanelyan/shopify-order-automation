@@ -1,0 +1,15 @@
+{
+  "_comment": "Copy to translations.json and replace with your own catalogue. Every entry below is a made-up placeholder. 'kits' maps any Hebrew fragment appearing in a product title to its English output; the longest match is applied first, so a two-word club name wins over a shorter fragment inside it. 'patches' maps the patch value read from the line item properties.",
+  "kits": {
+    "קבוצה-אלף": "Example Team A",
+    "קבוצה-בית": "Example Team B",
+    "מדינה-אלף": "Example Country A",
+    "מהדורה-לדוגמה": "example edition",
+    "צבע-לדוגמה": "(Example Colour)",
+    "פריט-לדוגמה": "example item"
+  },
+  "patches": {
+    "פאטץ-לדוגמה": "Example Patch",
+    "example cup": "Example Cup"
+  }
+}

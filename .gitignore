@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Order data & generated output (contains customer info)
+*.csv
+*.docx
+*.json
+!package.json
+!*.example.json
+
+# Real config: pricing, margins and live promo codes.
+# Committed in the PRIVATE repo only, via `git add -f`, so a partner
+# cloning it gets a working setup. Never commit these to a public repo.
+config.json
+translations.json
+
+# OS
+.DS_Store
+Thumbs.db

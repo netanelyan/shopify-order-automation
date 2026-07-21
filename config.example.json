@@ -1,0 +1,24 @@
+{
+  "_comment": "Copy to config.json and replace with your own values. The numbers and codes below are placeholders, not real commercial terms.",
+  "pricing": {
+    "bulk_threshold": 3,
+    "base": {
+      "fan": { "standard": 10, "bulk": 9 },
+      "player_retro": { "standard": 10, "bulk": 9 },
+      "long_sleeve": { "standard": 10, "bulk": 9 },
+      "kids": { "standard": 10, "bulk": 9 }
+    },
+    "default": { "standard": 10, "bulk": 9 },
+    "surcharges": {
+      "long_sleeve": 3,
+      "personalisation": 3,
+      "pants": 3
+    }
+  },
+  "skip": {
+    "_comment": "order_numbers: orders handled manually. line_prefixes: start-of-line matches dropping discount and coupon lines that are not real products - put your own promo codes and offer names here; an emoji or percentage prefix works too. line_contains: substrings anywhere in a line that mark the whole order for manual handling.",
+    "order_numbers": ["#1001", "#1002"],
+    "line_prefixes": ["🎉", "SALE20", "FREEGIFT", "YOURPROMOCODE1", "YOURPROMOCODE2"],
+    "line_contains": ["EXAMPLE-MANUAL-PRODUCT"]
+  }
+}
